@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu.xml",
+        "source": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\src\\main\\res\\menu\\menu.xml"
+    }
+]
