@@ -25,12 +25,18 @@
             android:textSize="10pt"/>
 
         <Button
+            android:background="@drawable/ic_menu_camera"
             android:layout_marginTop="10dp"
             android:id="@+id/btnCamera"
             style="?android:attr/buttonStyleSmall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Capture Image" />
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 1. Ambil gambar"/>
 
         <ImageView
             android:layout_gravity="center"
@@ -40,46 +46,37 @@
             android:contentDescription="image"
             android:visibility="gone" />
 
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
         <EditText
             android:singleLine="true"
             android:id="@+id/etdetail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Ketik judul. (eg: Tabrakan bus dan motor)"/>
+            android:hint="2. Ketik judul. (eg: Tabrakan bus dan motor)"/>
 
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
         <EditText
             android:id="@+id/etalamat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Ketik lokasi. (eg: Jl. Hr. subrantas panam)"
+            android:hint="3. Ketik lokasi. (eg: Jl. Hr. subrantas panam)"
             android:inputType="textCapSentences|textMultiLine"
             android:maxLength="2000"
             android:maxLines="4"
             android:scrollHorizontally="false"
             />
 
-
-        <!--<EditText-->
-            <!--android:id="@+id/etfoto"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:hint="Foto"/>-->
-
-        <!--<EditText-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:inputType="date"-->
-        <!--android:ems="10"-->
-        <!--android:id="@+id/editText"-->
-        <!--android:hint="Tanggal"/>-->
-
-        <!--<EditText-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:inputType="time"-->
-        <!--android:ems="10"-->
-        <!--android:id="@+id/editText2"-->
-        <!--android:hint="Waktu"/>-->
+        </android.support.design.widget.TextInputLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -91,13 +88,13 @@
                 android:id="@+id/btsubmit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Submit"/>
+                android:text="Kirim"/>
 
             <Button
                 android:id="@+id/btclear"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Clear"/>
+                android:text="Hapus"/>
         </LinearLayout>
 
         <RelativeLayout

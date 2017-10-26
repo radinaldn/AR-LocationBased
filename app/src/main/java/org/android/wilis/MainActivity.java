@@ -21,6 +21,8 @@ import android.os.Bundle;
 import android.speech.RecognizerIntent;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -61,11 +63,12 @@ public class MainActivity extends AppCompatActivity
     String arUri;
     // end of maps and ar
 
-    String id_user, username;
+    String id_user, username, email;
     SharedPreferences sharedpreferences;
 
     public static final String TAG_ID = "id_user";
     public static final String TAG_USERNAME = "username";
+    public static final String TAG_EMAIL = "email";
     // end of session
 
     @TargetApi(Build.VERSION_CODES.M)
@@ -74,10 +77,12 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         sharedpreferences = getSharedPreferences(Login.my_shared_preferences, Context.MODE_PRIVATE);
 
         id_user = getIntent().getStringExtra(TAG_ID);
         username = getIntent().getStringExtra(TAG_USERNAME);
+        email = getIntent().getStringExtra(TAG_EMAIL);
 
         // maps and ar
         latTxt = (TextView) findViewById(R.id.lat);
@@ -152,8 +157,8 @@ public class MainActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
 
         TextView hello = (TextView) findViewById(R.id.tvhello);
-        TextView nama = (TextView) findViewById(R.id.tvnama);
-       hello.setText(id_user);
+
+
 
 //        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
 //        fab.setOnClickListener(new View.OnClickListener() {
@@ -172,6 +177,14 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+        View header=navigationView.getHeaderView(0);
+
+        TextView tvname = (TextView)header.findViewById(R.id.tvnama);
+        TextView tvemail = (TextView)header.findViewById(R.id.tvemail);
+        tvname.setText(username);
+        tvemail.setText(email);
+
+        hello.setText(email);
     }
 
     //------------------------------------------------------------------
@@ -220,6 +233,7 @@ public class MainActivity extends AppCompatActivity
     };
 
     //------------------------------------------------------------------
+
     //P R E P A R I N G    T H E    D I A L O G S
     //------------------------------------------------------------------
     private AlertDialog createAboutDialog(){
@@ -263,6 +277,7 @@ public class MainActivity extends AppCompatActivity
         return super.onPrepareOptionsMenu(menu);
     }
 
+    // Log out
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
@@ -279,6 +294,7 @@ public class MainActivity extends AppCompatActivity
             editor.putBoolean(Login.session_status, false);
             editor.putString(TAG_ID, null);
             editor.putString(TAG_USERNAME, null);
+            editor.putString(TAG_EMAIL, null);
             editor.commit();
 
             Intent intent = new Intent(MainActivity.this, Login.class);
@@ -335,7 +351,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_berita) {
-            // Handle the camera action
+            // Handle the action
             Intent i = new Intent(MainActivity.this, News.class);
             startActivity(i);
         } else if (id == R.id.nav_lapor) {
@@ -351,6 +367,14 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_manage) {
 
+        } else if (id == R.id.nav_help) {
+            Intent i = new Intent(MainActivity.this, FAQActivity.class);
+            startActivity(i);
+        } else if (id == R.id.about){
+            AlertDialog.Builder builder = new AlertDialog.Builder(this).setTitle(R.string.license_title)
+                    .setMessage(R.string.license).setIcon(R.drawable.about)
+                    .setNeutralButton(R.string.about_button, null);
+            builder.show();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

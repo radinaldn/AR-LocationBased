@@ -41,11 +41,12 @@ import java.util.Random;
  */
 public class LaporKecelakaan extends Activity  {
 
-    String id_user, username;
+    String id_user, username, email;
     SharedPreferences sharedpreferences;
 
     public static final String TAG_ID = "id_user";
     public static final String TAG_USERNAME = "username";
+    public static final String TAG_EMAIL = "email";
     // end of session
 
     LocationManager lm;
@@ -160,10 +161,12 @@ public class LaporKecelakaan extends Activity  {
 
         id_user = getIntent().getStringExtra(TAG_ID);
         username = getIntent().getStringExtra(TAG_USERNAME);
+        email = getIntent().getStringExtra(TAG_EMAIL);
 
         Intent intent = new Intent(LaporKecelakaan.this, MainActivity.class);
         intent.putExtra(TAG_ID, id_user);
         intent.putExtra(TAG_USERNAME, username);
+        intent.putExtra(TAG_EMAIL, email);
         finish();
         startActivity(intent);
     }

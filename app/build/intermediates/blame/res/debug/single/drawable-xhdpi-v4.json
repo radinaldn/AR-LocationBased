@@ -32,6 +32,10 @@
         "source": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_dark_pressed.9.png"
     },
     {
+        "merged": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_help.png",
+        "source": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_help.png"
+    },
+    {
         "merged": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_compass.png",
         "source": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_compass.png"
     },
@@ -150,6 +154,10 @@
     {
         "merged": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png",
         "source": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_info.png",
+        "source": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_info.png"
     },
     {
         "merged": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\places_ic_search.png",

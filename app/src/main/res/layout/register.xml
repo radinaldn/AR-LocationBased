@@ -22,10 +22,18 @@
         >
 
         <TextView
+            android:background="#069c88"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrasi Akun"
+            android:textSize="10pt"/>
+        <TextView
+            android:paddingTop="10dp"
             android:layout_gravity="center_horizontal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Harap isi biodata sesuai KTP anda"/>
+            android:text="*Harap isi biodata sesuai KTP anda"/>
 
         <android.support.design.widget.TextInputLayout
             android:layout_marginTop="8dp"
@@ -52,7 +60,7 @@
                 android:inputType="number"
                 android:singleLine="true"
                 android:id="@+id/etnik"
-                android:hint="NIK (''-'' bila belum memiliki KTP)"
+                android:hint="NIK"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -159,7 +167,7 @@
             <EditText
                 android:inputType="date"
                 android:id="@+id/ettanggallahir"
-                android:hint="Tanggal Lahir"
+                android:hint="Tanggal Lahir (YYYY-MM-DD)"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 

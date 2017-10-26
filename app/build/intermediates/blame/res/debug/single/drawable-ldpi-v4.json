@@ -12,6 +12,10 @@
         "source": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_username.png"
     },
     {
+        "merged": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_help.png",
+        "source": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_help.png"
+    },
+    {
         "merged": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_menu_send.png",
         "source": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_menu_send.png"
     },
@@ -26,6 +30,10 @@
     {
         "merged": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_password1.png",
         "source": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_password1.png"
+    },
+    {
+        "merged": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_info.png",
+        "source": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_info.png"
     },
     {
         "merged": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_report.png",

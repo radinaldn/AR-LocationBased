@@ -54,14 +54,14 @@
         </android.support.design.widget.TextInputLayout>
         <!--<EditText-->
 
-            <!--android:id="@+id/etusername"-->
-            <!--android:layout_marginTop="40dp"-->
-            <!--android:hint="Username"-->
-            <!--android:layout_toEndOf="@id/icusername"-->
-            <!--android:layout_below="@id/logo"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--tools:textAlignment="textStart" />-->
+        <!--android:id="@+id/etusername"-->
+        <!--android:layout_marginTop="40dp"-->
+        <!--android:hint="Username"-->
+        <!--android:layout_toEndOf="@id/icusername"-->
+        <!--android:layout_below="@id/logo"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--tools:textAlignment="textStart" />-->
 
         <ImageView
             android:layout_marginTop="20dp"
@@ -97,14 +97,14 @@
         </android.support.design.widget.TextInputLayout>
 
         <!--<EditText-->
-            <!--android:inputType="textPassword"-->
-            <!--android:textAlignment="textStart"-->
-            <!--android:id="@+id/etpassword"-->
-            <!--android:hint="Password"-->
-            <!--android:layout_toEndOf="@+id/icusername"-->
-            <!--android:layout_below="@id/etusername"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content" />-->
+        <!--android:inputType="textPassword"-->
+        <!--android:textAlignment="textStart"-->
+        <!--android:id="@+id/etpassword"-->
+        <!--android:hint="Password"-->
+        <!--android:layout_toEndOf="@+id/icusername"-->
+        <!--android:layout_below="@id/etusername"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
         <TextView
             android:id="@+id/tvshow"
             android:visibility="invisible"
@@ -115,6 +115,7 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true" />
         <Button
+            android:layout_marginTop="20dp"
             android:id="@+id/btnlogin"
             android:text="Login"
             android:layout_width="match_parent"

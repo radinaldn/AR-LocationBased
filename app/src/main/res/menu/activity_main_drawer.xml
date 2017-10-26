@@ -14,23 +14,28 @@
             android:id="@+id/nav_kompas"
             android:icon="@drawable/ic_compass"
             android:title="Kantor Polisi" />
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Pengaturan" />
     </group>
 
-    <!--<item android:title="Communicate">-->
-    <!--<menu>-->
-    <!--<item-->
-    <!--android:id="@+id/nav_share"-->
-    <!--android:icon="@drawable/ic_menu_share"-->
-    <!--android:title="Share" />-->
-    <!--<item-->
-    <!--android:id="@+id/nav_send"-->
-    <!--android:icon="@drawable/ic_menu_send"-->
-    <!--android:title="Send" />-->
-    <!--</menu>-->
-    <!--</item>-->
+
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_manage"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Pengaturan" />
+
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help"
+                android:title="AR Lacak FAQ" />
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info"
+                android:title="Tentang" />
+        </menu>
+
+    </item>
 
 </menu>

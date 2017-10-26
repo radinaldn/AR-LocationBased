@@ -566,7 +566,7 @@ public final class R {
 		public static final int abc_textfield_search_material = 0x7f020044;
 		public static final int design_fab_background = 0x7f020081;
 		public static final int design_snackbar_background = 0x7f020082;
-		public static final int notification_template_icon_bg = 0x7f0200d3;
+		public static final int notification_template_icon_bg = 0x7f0200d5;
 	}
 	public static final class id {
 		public static final int action0 = 0x7f0d00df;
@@ -740,18 +740,18 @@ public final class R {
 		public static final int design_navigation_item_subheader = 0x7f030027;
 		public static final int design_navigation_menu = 0x7f030028;
 		public static final int design_navigation_menu_item = 0x7f030029;
-		public static final int notification_media_action = 0x7f030036;
-		public static final int notification_media_cancel_action = 0x7f030037;
-		public static final int notification_template_big_media = 0x7f030038;
-		public static final int notification_template_big_media_narrow = 0x7f030039;
-		public static final int notification_template_lines = 0x7f03003a;
-		public static final int notification_template_media = 0x7f03003b;
-		public static final int notification_template_part_chronometer = 0x7f03003c;
-		public static final int notification_template_part_time = 0x7f03003d;
-		public static final int select_dialog_item_material = 0x7f030044;
-		public static final int select_dialog_multichoice_material = 0x7f030045;
-		public static final int select_dialog_singlechoice_material = 0x7f030046;
-		public static final int support_simple_spinner_dropdown_item = 0x7f030049;
+		public static final int notification_media_action = 0x7f030037;
+		public static final int notification_media_cancel_action = 0x7f030038;
+		public static final int notification_template_big_media = 0x7f030039;
+		public static final int notification_template_big_media_narrow = 0x7f03003a;
+		public static final int notification_template_lines = 0x7f03003b;
+		public static final int notification_template_media = 0x7f03003c;
+		public static final int notification_template_part_chronometer = 0x7f03003d;
+		public static final int notification_template_part_time = 0x7f03003e;
+		public static final int select_dialog_item_material = 0x7f030045;
+		public static final int select_dialog_multichoice_material = 0x7f030046;
+		public static final int select_dialog_singlechoice_material = 0x7f030047;
+		public static final int support_simple_spinner_dropdown_item = 0x7f03004a;
 	}
 	public static final class string {
 		public static final int abc_action_bar_home_description = 0x7f070000;

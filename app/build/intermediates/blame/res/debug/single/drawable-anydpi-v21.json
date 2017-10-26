@@ -8,8 +8,16 @@
         "source": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_password1.xml"
     },
     {
+        "merged": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_help.xml",
+        "source": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_help.xml"
+    },
+    {
         "merged": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_username.xml",
         "source": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_username.xml"
+    },
+    {
+        "merged": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_info.xml",
+        "source": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_info.xml"
     },
     {
         "merged": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_content.xml",

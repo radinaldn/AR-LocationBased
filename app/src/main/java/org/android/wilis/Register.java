@@ -60,6 +60,7 @@ public class Register extends AppCompatActivity {
             public void onClick(View v) {
                 String tusername = username.getText().toString();
                 String tpassword = password.getText().toString();
+                String tpassword2 = password2.getText().toString();
                 String tnik = nik.getText().toString();
                 String tnama_lengkap = nama_lengkap.getText().toString();
                 String ttempat_lahir = tempat_lahir.getText().toString();
@@ -70,11 +71,17 @@ public class Register extends AppCompatActivity {
                 String temail = email.getText().toString();
                 String tagama = agama.getText().toString();
 
-                String laporan = register.insertUser(tusername, tpassword, tnik, tnama_lengkap, ttempat_lahir, ttanggal_lahir, tjenis_kelamin, talamat, tpekerjaan, temail, tagama);
-                Toast.makeText(Register.this, laporan, Toast.LENGTH_SHORT).show();
+                if(tpassword.equals(tpassword2) == true){
+                    String laporan = register.insertUser(tusername, tpassword, tnik, tnama_lengkap, ttempat_lahir, ttanggal_lahir, tjenis_kelamin, talamat, tpekerjaan, temail, tagama);
+                    Toast.makeText(Register.this, laporan, Toast.LENGTH_SHORT).show();
 
-                finish();
-                startActivity(getIntent());
+                    finish();
+                    startActivity(getIntent());
+                } else {
+                    Toast.makeText(getApplicationContext(), "Password tidak cocok", Toast.LENGTH_SHORT).show();
+                }
+
+
             }
         });
 

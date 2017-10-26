@@ -132,16 +132,16 @@
         "source": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\8.4.0\\res\\drawable-hdpi\\cast_ic_notification_1.png"
     },
     {
-        "merged": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png",
-        "source": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_text_dark_pressed.9.png"
+        "merged": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_focused.9.png",
+        "source": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_light_focused.9.png"
     },
     {
         "merged": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png",
         "source": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_dark_pressed.9.png"
     },
     {
-        "merged": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_focused.9.png",
-        "source": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_light_focused.9.png"
+        "merged": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png",
+        "source": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_text_dark_pressed.9.png"
     },
     {
         "merged": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png",
@@ -272,6 +272,10 @@
         "source": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_full_open_on_phone.png"
     },
     {
+        "merged": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_help.png",
+        "source": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_help.png"
+    },
+    {
         "merged": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
         "source": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
@@ -382,6 +386,10 @@
     {
         "merged": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
         "source": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_info.png",
+        "source": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_info.png"
     },
     {
         "merged": "D:\\Radinal\\AndroidStudioProject\\AR-LocationBased\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_off_light.png",
